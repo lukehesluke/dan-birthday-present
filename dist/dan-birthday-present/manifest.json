@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+
+    "name": "Dantasmal",
+    "description": "Dantasmify any page!",
+    "version": "0.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["contentScript.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+.*.sw[po]
+*.pem
+/dist/dan-birthday-present/contentScript.js
+/node_modules
